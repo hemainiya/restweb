@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Menu -</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Roboto:wght@300;400;500&family=Gloock&display=swap" rel="stylesheet">
+        <style>
+            body {
+                font-family: 'Roboto', sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #1a1a1a;
+                color: #ddd;
+            }
+
+            .header {
+                background-color: #111;
+                padding: 15px 30px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                color: #fff;
+            }
+
+            .header .logo h1 {
+                margin: 0;
+                font-family: 'Poppins', sans-serif;
+                font-size: 26px;
+            }
+
+            .header .logo img {
+                height: 40px;
+                width: auto;
+                margin-left: 10px;
+            }
+
+            .header .search-bar input {
+                padding: 10px;
+                width: 350px;
+                border-radius: 20px;
+                border: 1px solid #444;
+                margin-right: 10px;
+                font-size: 1em;
+                background-color: #333;
+                color: white;
+            }
+
+            .header .search-bar button {
+                padding: 10px 20px;
+                background-color: #f39c12;
+                border: none;
+                cursor: pointer;
+                border-radius: 5px;
+                font-size: 1em;
+                color: #fff;
+            }
+
+            .nav {
+                background-color: #222;
+                color: white;
+                padding: 15px 0;
+            }
+
+            .nav ul {
+                display: flex;
+                justify-content: center;
+                list-style: none;
+                margin: 0;
+                padding: 0;
+            }
+
+            .nav ul li {
+                margin: 0 25px;
+                cursor: pointer;
+            }
+
+            .nav ul li a {
+                text-decoration: none;
+                color: white;
+                font-size: 1.1em;
+                transition: color 0.3s;
+            }
+
+            .nav ul li a:hover {
+                color: #f39c12;
+            }
+
+            .menu-section {
+                text-align: center;
+                padding: 60px 30px;
+                background-color: #111;
+                margin: 30px 0;
+                border-bottom: 5px solid #f39c12;
+            }
+
+            .menu-section h2 {
+                font-family: 'Gloock', sans-serif;
+                font-size: 3.5em;
+                color: #f39c12;
+                margin-bottom: 20px;
+                text-transform: uppercase;
+            }
+
+            .menu-section p {
+                font-size: 1.1em;
+                color: #ccc;
+                margin-bottom: 30px;
+            }
+
+            .menu-items {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 20px;
+            }
+
+            .menu-item {
+                width: 250px;
+                background-color: #222;
+                padding: 20px;
+                text-align: center;
+                border-radius: 10px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                border-top: 5px solid #f39c12;
+            }
+
+            .menu-item img {
+                width: 100%;
+                height: 150px;
+                object-fit: cover;
+                border-radius: 10px;
+                margin-bottom: 15px;
+            }
+
+            .menu-item h3 {
+                font-family: 'Poppins', sans-serif;
+                color: #f39c12;
+                font-size: 1.5em;
+                margin-bottom: 10px;
+            }
+
+            .menu-item p {
+                color: #ccc;
+                font-size: 1.1em;
+                margin-bottom: 15px;
+            }
+
+            footer {
+                background-color: #111;
+                color: white;
+                padding: 20px 0;
+                text-align: center;
+            }
+
+            footer a {
+                color: #f39c12;
+                text-decoration: none;
+                margin: 0 10px;
+            }
+
+            footer a:hover {
+                text-decoration: underline;
+            }
+        </style>
+    </head>
+    <body>
+        <header class="header">
+            <div class="logo">
+                <img src="logo.jpg" alt="logo">
+                <h1></h1>
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Search for your favorite dishes...">
+                <button>Search</button>
+            </div>
+        </header>
+
+        <nav class="nav">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="admin.html">Admin</a></li>
+                <li><a href="reservation.html">Contact Us</a></li>
+            </ul>
+        </nav>
+
+        <section class="menu-section">
+            <h2>Our Menus</h2>
+            <p>Discover our exquisite dishes, crafted to bring the finest flavors to your table.</p>
+                <!-- Dish 2 -->
+                <div class="menu-item">
+                    <img src="image/caesar salad.png" alt="download (4)">
+                    <h3>Caesar Salad</h3>
+                    <p>Fresh romaine lettuce with creamy Caesar dressing, croutons, and parmesan.</p>
+                </div>
+                <!-- Dish 3 -->
+                <div class="menu-item">
+                    <img src="image/steak frites.jpg" alt="download (5)">
+                    <h3>Steak Frites</h3>
+                    <p>Juicy rib-eye steak served with crispy fries and a savory sauce.</p>
+                </div>
+                <!-- Dish 4 -->
+                <div class="menu-item">
+                    <img src="image/spaghetticarbonara.jpg" alt="download (5)">
+                    <h3>Spaghetti Carbonara</h3>
+                    <p>Classic pasta with creamy sauce, crispy pancetta, and parmesan cheese.</p>
+                </div>
+                <!-- Dish 5 -->
+                <div class="menu-item">
+                    <img src="image/vegitab;e stir fry.jpg">
+                    <h3>Vegetable Stir-fry</h3>
+                    <p>Stir-fried seasonal vegetables in a savory soy-based sauce.</p>
+                </div>
+                <!-- Dish 6 -->
+                <div class="menu-item">
+                    <img src="image/margherita pizza.jpg" alt="download (7)">
+                    <h3>Margherita Pizza</h3>
+                    <p>Tomato, fresh mozzarella, and basil on a crispy thin crust.</p>
+                </div>
+                <!-- Dish 7 -->
+                <div class="menu-item">
+                    <img src="image/lobser bisque.jpg">
+                    <h3>Lobster Bisque</h3>
+                    <p>Rich and creamy lobster soup with a hint of brandy and fresh herbs.</p>
+                </div>
+                <!-- Dish 8 -->
+                <div class="menu-item">
+                    <img src="image/chicken alfredo.jpg" alt="download (9)">
+                    <h3>Chicken Alfredo</h3>
+                    <p>Creamy alfredo sauce with tender chicken and fettuccine pasta.</p>
+                </div>
+                <!-- Dish 9 -->
+                <div class="menu-item">
+                    <img src="image/beef wellington.jpg" alt="download (10)">
+                    <h3>Beef Wellington</h3>
+                    <p>Beef tenderloin wrapped in puff pastry with mushroom duxelles and prosciutto.</p>
+                </div>
+                <!-- Dish 10 -->
+                <div class="menu-item">
+                    <img src="image/chocolate mousse.jpg" alt="desert">
+                    <h3>Chocolate Mousse</h3>
+                    <p>Decadent chocolate mousse topped with whipped cream and berries.</p>
+                </div>
+            </div>
+        </section>                                                                                                                              
+
+        <footer>
+            <p>&copy; 2024 Velvet Bistro |Privacy Policy | Terms & Conditions</p>
+        </footer>
+    </body>
+</html>
